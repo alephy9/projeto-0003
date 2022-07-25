@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Racing Catalogue;
+    src: url('arquivos/racingcatalogue.ttf');
+    font-weight: bold;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.849);
+    height: 12em;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    padding-top: 1em ;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Racing Catalogue;
+    color: yellow;
+    font-variant: normal;
+    font-size: 3em;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+article {
+    background-color: rgba(70, 70, 70, 0.404);
+    min-width: 300px;
+    max-width: 100%;
+}
+
+section.primeiro {
+    min-width: 300px;
+    max-width: 60%;
+    margin: auto;
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.24);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+section h2 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+section p {
+    line-height: 2em;
+    text-align: left;
+    text-indent: 1em;
+    padding: 0px 5px 1em 5px;
+}
+
+section.segundo {
+    min-width: 300px;
+    max-width: 60%;
+    display: block;
+    margin: auto; 
+}
+
+section.segundo > picture > img {
+    min-width: 300px;
+    max-width: 100% 100%;
+    width: 100%;
+    opacity: 70%;
+}
+
+
+
+section.terceiro {
+    min-width: 300px;
+    max-width: 60%;
+    margin: auto;
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.24);
+    background-color: rgb(255, 255, 255);
+}
+
+section.terceiro > h2 {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+section.terceiro > p {
+    line-height: 2em;
+    text-align: left;
+    text-indent: 1em;
+    padding: 10px 5px 1em 5px;
+    margin-top: 15px;
+}
+
+#despedida {
+    margin-top: -5px;
+
+}
+
+blockquote {
+    margin: 50px 0px;
+    line-height: 2em;
+    padding: 50px 5px;
+    background-color: rgba(180, 180, 180, 0.116);
+}
+
+section.quarto {
+    
+    min-width: 300px;
+    max-width: 60%;
+    margin: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.24);
+    background-color: rgb(0, 0, 0);
+    opacity: 60%;
+    
+}
+
+section.quarto > picture > img {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+section.quinto {
+    min-width: 300px;
+    max-width: 60%;
+    height: 1010px;
+    margin: auto;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+section.quinto > div {
+    min-width: 300px;
+    max-width: 80%;
+    margin: auto;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image:url('imagens/banda.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 75% 60%;
+    opacity: 60%;
+}
+
+section.sexto {
+    min-width: 300px;
+    max-width: 60%;
+    height: 730px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+
+section.sexto > video {
+    min-width: 300px;
+    max-width: 90%;
+    height: 350px;
+    width: 450px;
+    display: block;
+    margin: auto;
+    
+}
+
+section > video.ajustevideo {
+    margin-top: 1em;
+}
